@@ -14,5 +14,5 @@ jobs:
           cache: pip
       - name: Run Depedencies
         run: pip install -r requirements.txt
-      - name: Test job
+      - name: Run tests
         run: python3 -m pytest
